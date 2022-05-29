@@ -24,15 +24,6 @@ OPTIONAL:
 
  -G color_mode ** (creates various color maps based on different variables)
 
-        color_mode = 1: Color/gray fill.
-        color_mode = 2: Color/gray fill shaded by synthetic illumination.
-        color_mode = 3: Color/gray fill shaded by an intensity file.
-			             The -K option must be used to specify the intensity file.
-        color_mode = 4: Color/gray fill of slope magnitude.
-        color_mode = 5: Color/gray fill shaded by slope magnitude.
-        color_mode = 6: Image plot using embedded georeferencing.
-        color_mode = 7: Image plot using bounds specified with -R.
-
  -P pagesize
 
  -S [color/shade] (histogram equalization)
